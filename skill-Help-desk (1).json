@@ -1,0 +1,1307 @@
+{
+  "intents": [
+    {
+      "intent": "Available_products",
+      "examples": [
+        {
+          "text": "can you list available products"
+        },
+        {
+          "text": "What are all the products available?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Booking",
+      "examples": [
+        {
+          "text": "yes"
+        },
+        {
+          "text": "I want to buy laptop?"
+        },
+        {
+          "text": "Can I get Device?"
+        },
+        {
+          "text": "Can you book laptop?"
+        },
+        {
+          "text": "book"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "About_product",
+      "examples": [
+        {
+          "text": "computer is unable to start up"
+        },
+        {
+          "text": "installing a hard drive"
+        },
+        {
+          "text": "how to remove the battery?"
+        },
+        {
+          "text": "how to inserting the battery?"
+        },
+        {
+          "text": "inserting the battery"
+        },
+        {
+          "text": "backup and system recovery"
+        },
+        {
+          "text": "troubleshooting"
+        },
+        {
+          "text": "setting up new WLAN"
+        },
+        {
+          "text": "HDMI audio"
+        },
+        {
+          "text": "setting password protection on wakeup"
+        },
+        {
+          "text": "back up information?"
+        },
+        {
+          "text": "connecting speaker"
+        },
+        {
+          "text": "connecting network"
+        },
+        {
+          "text": "using webcam"
+        },
+        {
+          "text": "How to connect Internet?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I d like to stop doing this"
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "I'm leaving now"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Can I use another language?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "My name is roopa"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "What's your name?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "Cancel_Booking",
+      "examples": [
+        {
+          "text": "cancel"
+        },
+        {
+          "text": "Cancel my bookings"
+        },
+        {
+          "text": "Delete my booking"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Shankar"
+        },
+        {
+          "text": "ropa"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "How are things going?"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey how are you doing"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_time",
+      "examples": [
+        {
+          "text": "At what time you are availble"
+        },
+        {
+          "text": "Are you available on Sundays or holidays?"
+        },
+        {
+          "text": "At what time I can visit?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "day",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sunday",
+          "synonyms": [
+            "sun",
+            "Sundays",
+            "holiday"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "weekdays",
+          "synonyms": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "Thursday",
+            "Friday"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Weekends",
+          "synonyms": [
+            "Sunday",
+            "saturday"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Floppy_disk",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "2TB memory",
+          "synonyms": [
+            "2TB"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "128GB",
+          "synonyms": [
+            "128"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "1TB Memory",
+          "synonyms": [
+            "1TB"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "RAM",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "16GB",
+          "synonyms": [
+            "16"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "8GB",
+          "synonyms": [
+            "8"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "4GB",
+          "synonyms": [
+            "4"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "Windows",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "windows 10",
+          "synonyms": [
+            "10",
+            "w 10"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "windows 7",
+          "synonyms": [
+            "7",
+            "w 7"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "windows 8",
+          "synonyms": [
+            "8",
+            "8.1",
+            "w 8"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "Nah",
+            "Nope",
+            "No"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": [
+            "Y",
+            "Yeah",
+            "Yup",
+            "Yea"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "processor",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "intel i5",
+          "synonyms": [
+            "i5",
+            "i5 10th generation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "intel i3",
+          "synonyms": [
+            "i3",
+            "i3 7th generation"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "AMD Ryzen",
+          "synonyms": [
+            "Ryzen 5"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.cloud.ibm.com/api/v1/web/si05202000500%40smartinternz.com_dev/default/fetch_data.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Which processor you need?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1592469127871",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1592469127875",
+      "previous_sibling": "handler_10_1592469127875"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592469127871",
+      "context": {
+        "processor": "@processor"
+      },
+      "conditions": "@processor",
+      "event_name": "input",
+      "dialog_node": "handler_10_1592469127875"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what about floppy disk size?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1592469168219",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1592469168223",
+      "previous_sibling": "handler_3_1592469168223"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1592469168219",
+      "context": {
+        "Floppy_disk": "@Floppy_disk"
+      },
+      "conditions": "@Floppy_disk",
+      "event_name": "input",
+      "dialog_node": "handler_3_1592469168223"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. Good Evening!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591718533148",
+      "conditions": "now().after('17:00:00')",
+      "dialog_node": "response_8_1591718820967",
+      "previous_sibling": "response_5_1591718770623"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. Good Afternoon!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591718533148",
+      "conditions": "now().after('12:00:00') && now().before('16:59:59')",
+      "dialog_node": "response_5_1591718770623",
+      "previous_sibling": "response_2_1591718656040"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. Good Morning, Have a good day!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1591718533148",
+      "conditions": "now().after('4:00:00') && now().before('11:59:59')",
+      "dialog_node": "response_2_1591718656040"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Booking $i_number is not Cancelled!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591868988011",
+      "conditions": "@yes_no:No",
+      "dialog_node": "response_10_1591869053175",
+      "previous_sibling": "response_5_1591868998142"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Your Booking  $i_number had been Cancelled!!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1591868988011",
+      "conditions": "@yes_no:Yes",
+      "dialog_node": "response_5_1591868998142"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1591775358226",
+      "variable": "$Floppy_disk",
+      "dialog_node": "slot_6_1592469168219",
+      "previous_sibling": "slot_7_1592469127871"
+    },
+    {
+      "type": "frame",
+      "title": "Confirm1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1591775358226",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@yes_no",
+      "dialog_node": "node_10_1591866035615",
+      "previous_sibling": "slot_6_1592469168219"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1591775358226",
+      "variable": "$processor",
+      "dialog_node": "slot_7_1592469127871",
+      "previous_sibling": "slot_7_1592469079340"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1591775358226",
+      "variable": "$RAM",
+      "dialog_node": "slot_7_1592469079340",
+      "previous_sibling": "slot_2_1592469030722"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please specify the configuration your looking for? such as operating system,  processor type, RAM, Internal memory!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1591775358226",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1591777135606",
+      "previous_sibling": "node_10_1591866035615"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1591775358226",
+      "variable": "$Windows",
+      "dialog_node": "slot_2_1592469030722"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what is size of RAM?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_7_1592469079340",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1592469079347",
+      "previous_sibling": "handler_4_1592469079347"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1592469079340",
+      "context": {
+        "RAM": "@RAM"
+      },
+      "conditions": "@RAM",
+      "event_name": "input",
+      "dialog_node": "handler_4_1592469079347"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "which operating system you want?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1592469030722",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1592469030726",
+      "previous_sibling": "handler_2_1592469030726"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1592469030722",
+      "context": {
+        "Windows": "@Windows"
+      },
+      "conditions": "@Windows",
+      "event_name": "input",
+      "dialog_node": "handler_2_1592469030726"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are most welcome!"
+              },
+              {
+                "text": "Always!"
+              },
+              {
+                "text": "My pleasure!!"
+              },
+              {
+                "text": "welcome!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1591718945967",
+      "conditions": "#General_Ending",
+      "dialog_node": "response_7_1591719086453"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1591864727317",
+      "variable": "$i_number",
+      "dialog_node": "slot_5_1591864739375",
+      "previous_sibling": "node_9_1591868988011"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm3",
+      "parent": "node_10_1591864727317",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@yes_no",
+      "dialog_node": "node_9_1591868988011"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_1_1592478005747",
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1592478067048",
+      "previous_sibling": "response_1_1592478056943"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "\"<?$webhook_result_1.passages[0].passage_text?>\""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592478005747",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_1_1592478056943"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "okay, thanks for interaction. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1591866527737",
+      "conditions": "@yes_no:No",
+      "event_name": "filled",
+      "dialog_node": "handler_7_1591866556915",
+      "previous_sibling": "handler_7_1591866527740"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1591866527737",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1591866527740",
+      "previous_sibling": "handler_5_1591866527740"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1591866527737",
+      "context": {
+        "special_data": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_5_1591866527740"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Your Booking is confirmed. Please note the serial number $number 501 for future references!"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1591866081927",
+      "conditions": "@yes_no:Yes",
+      "event_name": "filled",
+      "dialog_node": "handler_5_1591866437758",
+      "previous_sibling": "handler_4_1591866081967"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1591866081927",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1591866081967",
+      "previous_sibling": "handler_10_1591866081967"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1591866081927",
+      "context": {
+        "special_data": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_10_1591866081967"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Please enter serial number to cancel?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1591864739375",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1591864739400",
+      "previous_sibling": "handler_4_1591864739400"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1591864739375",
+      "context": {
+        "i_number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1591864739400"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are open from Monday to Saturday between 9:00 AM to 10:00 PM!!  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592048435823",
+      "conditions": "@day != \"Sunday\"",
+      "dialog_node": "response_3_1592048486300",
+      "previous_sibling": "response_8_1592048458627"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are available on Sundays or on holidays between 10:00 AM to 3:00 PM!!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1592048435823",
+      "conditions": "@day:Sunday",
+      "dialog_node": "response_8_1592048458627"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1591866035615",
+      "variable": "$special_data",
+      "dialog_node": "slot_8_1591866081927",
+      "previous_sibling": "handler_2_1591866672356"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1591866035615",
+      "variable": "$special_data",
+      "dialog_node": "slot_4_1591866527737",
+      "previous_sibling": "slot_8_1591866081927"
+    },
+    {
+      "type": "event_handler",
+      "parent": "node_10_1591866035615",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_2_1591866672356"
+    },
+    {
+      "type": "standard",
+      "title": "Timings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_time",
+      "dialog_node": "node_1_1592048435823",
+      "previous_sibling": "node_3_1591718533148"
+    },
+    {
+      "type": "standard",
+      "title": "General greatings",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_3_1591718533148",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "frame",
+      "title": "Cancel Booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I'm cancelling serial number $i_number. Do you confirm your cancellation?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_9_1591868988011"
+      },
+      "conditions": "#Cancel_Booking",
+      "dialog_node": "node_10_1591864727317",
+      "previous_sibling": "node_4_1591775358226"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_9_1591718945967",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "General Thanks",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_9_1591718945967",
+      "previous_sibling": "node_10_1591864727317"
+    },
+    {
+      "type": "frame",
+      "title": "Booking",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay, I am going to book your HP laptop with $RAM, $Floppy_disk, $processor, $Windows, do you confirm your booking?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Booking",
+      "dialog_node": "node_4_1591775358226",
+      "previous_sibling": "node_1_1592478005747"
+    },
+    {
+      "type": "standard",
+      "title": "Ask about product",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "input": "<?input_text?>"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#About_product",
+      "dialog_node": "node_1_1592478005747",
+      "previous_sibling": "node_4_1592723130133"
+    },
+    {
+      "type": "standard",
+      "title": "Products",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "our products are:  Printers, HP Software products,  HP laptop, Digital cameras, Scanners, Mobile phones"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Available_products",
+      "dialog_node": "node_4_1592723130133",
+      "previous_sibling": "node_1_1592048435823"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello I'm your Hp help desk!!! I can help with you providing general information about stores and either booking or  cancelling Laptop. what do you want to do?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": false
+  },
+  "learning_opt_out": false,
+  "name": "Help desk",
+  "language": "en",
+  "description": ""
+}
